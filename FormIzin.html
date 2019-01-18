@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Easy Licensing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+  </script>
+</head>
+  <body id="body">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #190934">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="page.html" title="">
+            <img src="logopst.png" alt="">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <form >
+      <center>
+        <div class="">
+          <div class="">
+            <div style="margin-top: 12.5%">
+              <table style="padding-left: 20px">
+                <thead>
+                  <tr style="font-size: 40px; " align="center">
+                    <td align="center" colspan="3" style="font-weight: bolder;">
+                      <select class="select1">
+                        <option class="red" onchange="colourFunctuin()" value="1" style="background-color: #0033cc">Absent</option>
+                        <option class="black" style="background-color: #0033cc">Izin</option>
+                        <option class="yellow" class="selected" style="background-color: #0033cc">Cuti</option>
+                      </select>
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td >
+                      Nama 
+                    </td>
+                    <td>:</td>
+                    <td>
+                      <input type="text" name="nama_izin" value="" placeholder="Masukkan Nama" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td >
+                      Tanggal Izin 
+                    </td>
+                    <td>:</td>
+                    <td colspan="" rowspan="">
+                      <input type="date" name="tanggal_izin" value="" placeholder="Pilih Tanggal Izin" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td >
+                      Tanggal Masuk
+                    </td>
+                    <td>:</td>
+                    <td colspan="" rowspan="">
+                      <input type="date" name="tanggal_masuk" value="" placeholder="Pilih Tangal Masuk" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Alasan Izin 
+                    </td>
+                    <td>:</td>
+                    <td colspan="" rowspan="">
+                      <textarea name="alasan_izin" ></textarea>            
+                    </td>
+                  </tr>
+                  <tr class="tr">
+                    <td align="center">
+                      <input type="reset" name="" value="Reset" class="button">
+                    </td>
+                    <td></td>
+                    <td align="center">
+                      <input type="submit" name="" value="Next" class="button">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </center>
+    </form>
+  </body>
+</html>

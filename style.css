@@ -1,0 +1,297 @@
+/*page*/
+
+ body {
+    position: relative;
+    font-family: Century Gothic;
+    background: url(bg1.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #183BF0;
+    color: white;
+  }
+  #section1 {padding-top:50px;height:400px;color: #fff;font-size: 20px; background-color: #0033cc;background: linear-gradient(#0033cc , #0099ff);}
+  #section2 {padding-top:50px;height:400px;color: #fff;font-size: 20px; background-color: #0099ff; background: linear-gradient(#0099ff, #00ffff);}
+  #section3 {padding-top:135px;height:500px;color: #fff;font-size: 20px; background-color: #00ffff;}
+
+#button {
+  padding: 0px 25px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  background-color: #bfbfbf;
+  border-radius: 25px;
+  transition: 0.3s;
+  border: 1px solid #b3ffb3;
+}
+#button:hover {
+  background-color: #595959;
+}
+/*page tutup*/
+
+/*izin,absen,cuti*/
+#customers {
+  font-family: Century Gothic;
+  width: 100%;
+  text-align: center;
+
+}
+
+#customers td, #customers th {
+  padding: 8px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#customers tr{background-color: #d9d9d9;}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #005ce6;
+  color: white;
+
+}
+.img {
+  width: 70px;
+  height: 70px;
+
+}
+.img2 {
+  height: 50px;
+}
+/*izin,cuti,absen*/
+a{
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+a:hover{
+  color: ;
+  text-decoration: none;
+}
+
+/* MIX */
+/* START login.html */
+form#flogin{
+  position: relative;
+  top: 123px;
+  width: 300px;
+  height: 330px;
+  background-color: #00cccc44;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+}
+
+/* -form>title- */
+ div.container-fluid div.row div#include div#title{
+  background-color: #00ccbbaa;
+  width: 300px;
+  font-size: 25px;
+  font-weight: ;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  padding-left: 60px;
+  border-radius: 25px;
+  border: 3px solid #ffffff;
+  position: relative;
+  right: 3px;
+  bottom: 3px;
+
+}
+ div.container-fluid div.row div#include div#title img#lock{
+  width: 35px;
+  position: relative;
+  right: 40px;
+  top: 20px;
+}
+ div.container-fluid div.row div#include div#title div#ntitle{
+  position: relative;
+  top: -15px;
+  left: 10px;
+  color: white;
+}
+
+/* -form>table- */
+ div.container-fluid div.row div#include table#table{
+  position: relative;
+  top: -10px;
+}
+ div.container-fluid div.row div#include table#table td#username img#user,
+ div.container-fluid div.row div#include table#table td#password img#key{
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: 18px;
+}
+ div.container-fluid div.row div#include table#table td input[type="password"],
+ div.container-fluid div.row div#include table#table td input[type="email"],
+ div.container-fluid div.row div#include table#table td input[type="textbox"]{
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: #eeeeee;
+  font-size: 15px;
+  width: 250px;
+  height: 30px;
+  margin-top: -10px;
+  padding-left: 5px;
+  transition: 0.3s;
+}
+ div.container-fluid div.row div#include table#table td input[type="password"]:hover,
+ div.container-fluid div.row div#include table#table td input[type="email"]:hover,
+ div.container-fluid div.row div#include table#table td input[type="textbox"]:hover{
+  background-color: #aaaaaa;
+}
+ div.container-fluid div.row div#include table#table td input[type="password"]:active,
+ div.container-fluid div.row div#include table#table td input[type="email"]:active,
+ div.container-fluid div.row div#include table#table td input[type="textbox"]:active{
+  background-color: #888888;
+}
+
+
+ div.container-fluid div.row div#include table#table td#password img#key,
+ div.container-fluid div.row div#include table#table td#password p.subtitle{
+  margin-top: -10px;
+}
+ div.container-fluid div.row div#include table#table td#password img#key{
+  position: relative;
+  top: 11px;
+}
+ div.container-fluid div.row div#include table#table p.subtitle{
+  position: relative;
+  top: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  left: 25px;
+  color: white;
+}
+/* -form>table>button- */
+ div.container-fluid div.row div#include table#table td input.logbutton,
+ div.container-fluid div.row div#include table#table td input#verifybutton{
+  width: 80px;
+  height: 30px;
+  background-color: #eeeeee;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: ;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  transition: 0.3s;
+  color: BLACK;
+}
+ div.container-fluid div.row div#include table#table td input.logbutton:hover{
+  background-color: #aaaaaa;
+}
+ div.container-fluid div.row div#include table#table td input.logbutton:active{
+  background-color: #888888;
+  transition: 0.2s;
+}
+/* END login.html */
+
+/* START forgot.html */
+form#fforgot{
+  position: relative;
+  top: 150px;
+  width: 300px;
+  height: 250px;
+  background-color: #00cccc44;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+}
+ div.container-fluid div.row div#include table#table td a input#verifybutton:hover{
+  background-color: #aaaaaa;
+}
+ div.container-fluid div.row div#include table#table td a input#verifybutton:active{
+  background-color: #888888;
+  transition: 0.2s;
+}
+ div.container-fluid div.row div#include table#table img#email{
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: 21px;
+}
+/* END forgot.html */
+
+/* START register.html */
+form#fregister{
+  position: relative;
+  top: 70px;
+  width: 300px;
+  height: 500px;
+  background-color: #00cccc44;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+}
+ div.container-fluid div.row div#include table#table td.reenter{
+  position: relative;
+  top: 7px;
+  padding-bottom: 20px;
+}
+ div.container-fluid div.row div#include table#table td#accept p{
+  color: white;
+  font-size: 11px;
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  margin-bottom: 0px;
+}
+ #checkbox{
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+ }
+/* END register.html */
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+select  {
+  color: #D4E4F7;
+  background-color: #0033cc00;
+  border: 2px solid #0033cc00;
+}
+
+input {
+  color: black;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding-left: 2px;
+  margin-left: 10px;
+}
+
+textarea{
+  color: black;
+  
+  border-radius: 10px;
+  border: 2px solid white;
+  padding-left: 2px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.button1 {
+  display: inline-block;
+  cursor: move;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #bfbfbf;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.button1:hover{
+  background-color: #8e8e8e;
+}
+
+td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
